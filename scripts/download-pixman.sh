@@ -3,7 +3,7 @@
 THIS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source $THIS_DIR/set-env.sh
 ####################################################################################################
-
+FILES_URL="https://ftp.osuosl.org/pub/blfs/conglomeration/pixman/"
 SHA1=8791343cbf6d99451f4d08e8209d6ac11bf96df2
 FILE=pixman-0.32.6.tar.gz
 FULL_PATH="$DOWNLOADS/$FILE"

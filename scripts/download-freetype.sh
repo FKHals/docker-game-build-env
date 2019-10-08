@@ -3,7 +3,7 @@
 THIS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source $THIS_DIR/set-env.sh
 ####################################################################################################
-
+FILES_URL="https://download-mirror.savannah.gnu.org/releases/freetype/"
 SHA1=e2731e7a083efbeb46247b699aa9722438deeb5e
 FILE=freetype-2.5.4.tar.gz
 FULL_PATH="$DOWNLOADS/$FILE"

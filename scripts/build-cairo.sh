@@ -6,7 +6,8 @@ source $THIS_DIR/set-env.sh
 
 DIR=cairo-1.12.16
 
-tar xf "$DOWNLOADS/cairo-1.12.16-small.tar.xz"
+tar xf "$DOWNLOADS/cairo-1.12.16.tar.xz"
+#tar xf "$DOWNLOADS/cairo-1.12.16-small.tar.xz"
 cp $THIS_DIR/locale.h.android $DIR/locale.h || exit 1
 cd $DIR
 
